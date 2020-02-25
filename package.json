@@ -1,0 +1,38 @@
+{
+  "name": "cli-base",
+  "version": "1.0.0",
+  "description": "Node cli boilerplate",
+  "main": "src/index.js",
+  "bin": {
+    "@kriskaminski/test-cli": "bin/test-cli",
+    "test-cli": "bin/test-cli"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kriskaminski/node-cli-base.git"
+  },
+  "keywords": [
+    "node",
+    "cli"
+  ],
+  "author": "kriskaminski",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kriskaminski/node-cli-base/issues"
+  },
+  "homepage": "https://github.com/kriskaminski/node-cli-base#readme",
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "commander": "^4.1.1",
+    "dotenv": "^8.2.0",
+    "esm": "^3.2.25",
+    "figlet": "^1.3.0",
+    "inquirer": "^7.0.4"
+  }
+}
